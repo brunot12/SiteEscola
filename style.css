@@ -1,3 +1,9 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
 .cabecalho{
     background-color: #383D58;
     color:white;
@@ -20,10 +26,23 @@
     
 }
 .escola-imagem{
-  width: 15%;
+  width: 35%;
 
 }
 .escola{
 
     background-image: linear-gradient(#383D58,#400036);
+    color:white;
+    display:flex;
+}
+.escola-conteudo{
+    width: 35%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+.escola-titulo{
+    padding:24px 0;
 }
